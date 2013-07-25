@@ -1,0 +1,304 @@
+
+{
+	"allowSleep" : true,
+	"autoClearForces" : true,
+	"body" : 
+	[
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture5",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : [ 1, 1, -1, -1 ],
+							"y" : [ -8, 8, 8, -8 ]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "paddle2",
+			"position" : 
+			{
+				"x" : 46.0,
+				"y" : 25.0
+			},
+			"type" : 0
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture5",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : [ 1, 1, -1, -1 ],
+							"y" : [ -8, 8, 8, -8 ]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "paddle1",
+			"position" : 
+			{
+				"x" : 4,
+				"y" : 25.0
+			},
+			"type" : 0
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 3.814697265625000e-06,
+							"y" : -1.144409179687500e-05
+						},
+						"radius" : 1
+					},
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture4"
+				}
+			],
+			"linearVelocity" : 0,
+			"massData-I" : 1.570796370506287,
+			"massData-center" : 
+			{
+				"x" : 3.814697265625000e-06,
+				"y" : -1.144409179687500e-05
+			},
+			"massData-mass" : 3.141592741012573,
+			"name" : "ball",
+			"position" : 
+			{
+				"x" : 25.0,
+				"y" : 25.0
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture3",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : [ 25.0, -25.0, -25.0 ],
+							"y" : [ -1, 1, -1 ]
+						}
+					}
+				},
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture3",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : [ 25.0, 25.0, -25.0 ],
+							"y" : [ -1, 1, 1 ]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "top",
+			"position" : 
+			{
+				"x" : 25.0,
+				"y" : 49.0
+			},
+			"type" : 0
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture2",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : [ 1, 1, -1, -1 ],
+							"y" : [ -25.0, 25.0, 25.0, -25.0 ]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "right",
+			"position" : 
+			{
+				"x" : 49.0,
+				"y" : 25.0
+			},
+			"type" : 0
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture1",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : [ 1, 1, -1, -1 ],
+							"y" : [ -25.0, 25.0, 25.0, -25.0 ]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "left",
+			"position" : 
+			{
+				"x" : 1,
+				"y" : 25.0
+			},
+			"type" : 0
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture0",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								24.99999618530273,
+								24.99999618530273,
+								-25.00000381469727,
+								-25.00000381469727
+							],
+							"y" : 
+							[
+								-1.000001907348633,
+								0.9999980926513672,
+								0.9999980926513672,
+								-1.000001907348633
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 0,
+			"name" : "buttom",
+			"position" : 
+			{
+				"x" : 25.00000381469727,
+				"y" : 1.000001907348633
+			},
+			"type" : 0
+		}
+	],
+	"collisionbitplanes" : 
+	{
+		"names" : 
+		[
+			"bitplane1",
+			"bitplane2",
+			"bitplane3",
+			"bitplane4",
+			"bitplane5",
+			"bitplane6",
+			"bitplane7",
+			"bitplane8",
+			"bitplane9",
+			"bitplane10",
+			"bitplane11",
+			"bitplane12",
+			"bitplane13",
+			"bitplane14",
+			"bitplane15",
+			"bitplane16",
+			"bitplane17",
+			"bitplane18",
+			"bitplane19",
+			"bitplane20",
+			"bitplane21",
+			"bitplane22",
+			"bitplane23",
+			"bitplane24",
+			"bitplane25",
+			"bitplane26",
+			"bitplane27",
+			"bitplane28",
+			"bitplane29",
+			"bitplane30",
+			"bitplane31",
+			"bitplane32"
+		]
+	},
+	"continuousPhysics" : true,
+	"gravity" : 0,
+	"positionIterations" : 3,
+	"stepsPerSecond" : 60.0,
+	"subStepping" : false,
+	"velocityIterations" : 8,
+	"warmStarting" : true
+}
